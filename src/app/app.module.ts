@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { SearchInputComponent } from './search/search-input/search-input.component';
 import { LoginComponent } from './user/login/login.component';
 import { ButtonModule } from 'primeng/button';
+import { MenubarModule } from 'primeng/menubar';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './heroes/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,13 +19,15 @@ import { MessagesComponent } from './messages/messages.component';
     SearchInputComponent,
     LoginComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     //FormsModule,
-    ButtonModule
+    ButtonModule,
+    MenubarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
