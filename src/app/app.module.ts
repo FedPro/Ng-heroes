@@ -8,6 +8,7 @@ import { LoginComponent } from './user/login/login.component';
 import { ButtonModule } from 'primeng/button';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './heroes/hero-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HeroDetailComponent } from './heroes/hero-detail.component';
     HeroesComponent,
     SearchInputComponent,
     LoginComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,

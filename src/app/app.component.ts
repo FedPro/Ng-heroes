@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
-import { HeroService } from './hero.service';
+import { HeroService } from './services/hero.service';
 
 @Component({
     selector: 'app-root',
