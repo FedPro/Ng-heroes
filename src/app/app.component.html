@@ -309,6 +309,7 @@
     <i class="pi pi-check" style="font-size: 1rem"></i>
     <i class="pi pi-times" style="font-size: 1rem"></i>
     <i class="pi pi-search" style="font-size: 1rem"></i>
+    <search-input></search-input>
     <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="https://twitter.com/angular" title="Twitter">
       <svg id="twitter-logo" height="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
         <rect width="400" height="400" fill="none"/>
@@ -326,9 +327,10 @@
 <div class="content" role="main">
 
   <h1>{{title}}</h1>
-  <search-input></search-input>
 
-  <app-heroes></app-heroes>
+  <nav>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
 
   <app-messages></app-messages>
 
